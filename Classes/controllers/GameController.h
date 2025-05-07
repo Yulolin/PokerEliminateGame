@@ -1,0 +1,13 @@
+#pragma once
+#include "configs/LevelConfigLoader.h"
+#include "controllers/GlobalCardController.h"
+#include "views/GameView.h"
+
+class GameController
+{
+public:
+	// ¿ªÊ¼ÓÎÏ·
+	void startGame(int levelID);
+
+};
+

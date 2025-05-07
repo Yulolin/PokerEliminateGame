@@ -1,0 +1,11 @@
+E:\Projects\Cocos\PokerEliminate\Classes\AppDelegate.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\AppDelegate.obj
+E:\Projects\Cocos\PokerEliminate\Classes\configs\LevelConfigLoader.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\LevelConfigLoader.obj
+E:\Projects\Cocos\PokerEliminate\Classes\controllers\CardController.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\CardController.obj
+E:\Projects\Cocos\PokerEliminate\Classes\controllers\GameController.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\GameController.obj
+E:\Projects\Cocos\PokerEliminate\Classes\controllers\GlobalCardController.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\GlobalCardController.obj
+E:\Projects\Cocos\PokerEliminate\Classes\managers\UndoManager.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\UndoManager.obj
+E:\Projects\Cocos\PokerEliminate\Classes\models\CardModel.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\CardModel.obj
+E:\Projects\Cocos\PokerEliminate\Classes\utils\jsoncpp.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\jsoncpp.obj
+E:\Projects\Cocos\PokerEliminate\Classes\views\CardView.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\CardView.obj
+E:\Projects\Cocos\PokerEliminate\Classes\views\GameView.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\GameView.obj
+E:\Projects\Cocos\PokerEliminate\proj.win32\main.cpp;E:\Projects\Cocos\PokerEliminate\proj.win32\Debug.win32\main.obj

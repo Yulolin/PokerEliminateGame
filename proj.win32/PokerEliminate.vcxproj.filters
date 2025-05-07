@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4afd7b55-5c16-43d0-b9ca-b732284e6cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\controllers">
+      <UniqueIdentifier>{9b49922c-9521-496b-9c8e-c1c929af79cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\views">
+      <UniqueIdentifier>{a0946da2-bcb1-4949-affc-9c7308aaa42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\configs">
+      <UniqueIdentifier>{ad8ff349-3acd-403f-bc90-b1f91f090e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\models">
+      <UniqueIdentifier>{d6268aae-a79d-4c4f-b0a0-d2f4bbd44b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\managers">
+      <UniqueIdentifier>{0fff7177-7ac4-4629-ad7f-b186daa0716d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\services">
+      <UniqueIdentifier>{3fd5e9a1-51cb-4a96-a29b-63b4f402238c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils">
+      <UniqueIdentifier>{1c37e1fd-b885-4dfc-a656-603c5fbd994f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils\json">
+      <UniqueIdentifier>{3d2eedc1-fd01-408e-9333-5366f54feff6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\CardView.cpp">
+      <Filter>Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\CardController.cpp">
+      <Filter>Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\configs\LevelConfigLoader.cpp">
+      <Filter>Classes\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\jsoncpp.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GlobalCardController.cpp">
+      <Filter>Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\managers\UndoManager.cpp">
+      <Filter>Classes\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\models\CardModel.cpp">
+      <Filter>Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GameController.cpp">
+      <Filter>Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\GameView.cpp">
+      <Filter>Classes\views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\LevelConfig.json">
+      <Filter>Classes\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\CardView.h">
+      <Filter>Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\CardResConfig.h">
+      <Filter>Classes\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardModel.h">
+      <Filter>Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\CardController.h">
+      <Filter>Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\configs\LevelConfigLoader.h">
+      <Filter>Classes\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\json.h">
+      <Filter>Classes\utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\json-forwards.h">
+      <Filter>Classes\utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\GlobalCardController.h">
+      <Filter>Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\managers\UndoManager.h">
+      <Filter>Classes\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\GameController.h">
+      <Filter>Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\GameView.h">
+      <Filter>Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\GameModel.h">
+      <Filter>Classes\models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
